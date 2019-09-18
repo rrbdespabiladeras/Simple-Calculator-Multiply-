@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main()
+{
+   int firstNum, secondNum;
+   int product = 0;
+
+   printf("Enter two integers:\n");
+   scanf("%d%d", &firstNum, &secondNum);
+
+
+   while(secondNum != 0)
+   {
+      product += firstNum;
+      secondNum--;
+   }
+
+   printf("\nProduct = %d\n", product);
+   return 0;
+}
